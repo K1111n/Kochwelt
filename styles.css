@@ -1,11 +1,12 @@
 body{
-    padding: 30px;
+    padding: 130px;
 }
-img{
+.dish{
     background-position: center;
     border-radius:10px;
     width: 80%;
     height: 200px;
+    padding-bottom: 50px;
     background-size:20%;
     background-position: 20%;
 }
@@ -34,9 +35,11 @@ td{
     height:fit-content;
 }
 .icons{
+    display: flex;
+    justify-content: center;
     height: 20px;
     width: 20px;
-    padding-right: 15px;
+    padding-right: 5px;
 }
 .info{
     display: flex;
@@ -47,11 +50,19 @@ td{
     align-items: center;
     width:min-content;
     padding-left:10px;
-    padding-right: 30px;
+    padding-right: 10px;
+    height: min-content;
 }
 .info-lines p{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 30px;
+    margin: 0;
+}
+.cooking p{
+    width:fit-content;
+    padding: 10px;
+    display: flex;
+
 }
