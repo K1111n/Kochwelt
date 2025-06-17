@@ -9,8 +9,20 @@ body{
     height: 200px;
     padding-bottom: 50px;
 }
-.navbar{
+.header{
     height:100px;
+    display: flex;
+
+}
+
+.logo{
+    height: 50px;
+    width: auto;
+}
+
+.headmenu{
+    display: flex;
+    
 }
 a{
     background-color:green;
