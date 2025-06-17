@@ -1,5 +1,6 @@
-body{
-    padding: 130px;
+section{
+    padding-left: 130px;
+    padding-right: 130px;
 }
 .dish{
     object-fit: cover;    
@@ -9,27 +10,70 @@ body{
     height: 200px;
     padding-bottom: 50px;
 }
-.header{
+header{
     height:100px;
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+    box-shadow: 0px 7px 5px #efefef;
+    margin-bottom: 7px;
 }
 
 .logo{
-    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 70px;
     width: auto;
 }
 
 .headmenu{
     display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 10px;
+
 
 }
-a{
-    background-color:green;
-    color:yellow;
-    text-align: center;
+
+.navlinks{
+    margin-left: 20px;
+    color: black;
     text-decoration: none;
+}
+.navlinks:hover{
+    color: rgb(0, 167, 0);
+    text-shadow: #000000;
+    text-decoration: underline;
+}
+.rezeptdestagesimg{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.rdt{
+    display: flex;
+    flex-direction: row;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.rezeptdestages{
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 25px;
+}
+#rdtheadline{
+    margin:0;
+    margin-bottom: 20px;
+    
+
 }
 .portions{
     display: flex;
@@ -95,4 +139,83 @@ td{
     padding: 10px;
     display: flex;
 
+}
+
+footer{
+    background-color: #403b3b;
+    height: 200px;
+}
+
+button{
+    display: flex;
+    background-color: #008000;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border: none;
+    width: fit-content;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #00bd00;
+
+}
+body{
+    margin: 0;
+}
+
+.dishsection{
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+    padding-bottom: 50px;
+
+}
+h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+.dishes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.columndishes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dishimg{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pvw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+p{
+    padding: 0;
+    margin: 0;
 }
