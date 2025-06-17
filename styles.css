@@ -2,13 +2,12 @@ body{
     padding: 130px;
 }
 .dish{
-    background-position: center;
+    object-fit: cover;    
+    object-position: center;
     border-radius:10px;
     width: 80%;
     height: 200px;
     padding-bottom: 50px;
-    background-size:20%;
-    background-position: 20%;
 }
 .navbar{
     height:100px;
@@ -19,15 +18,31 @@ a{
     text-align: center;
     text-decoration: none;
 }
+.portions{
+    display: flex;
+    gap: 10px;
+}
+input{
+    height:40px;
+}
 label{
     background-color: green;
-    text-align: center;
-    padding-left:30px;
-    padding-right:30px;
+    color:white;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+}
+.recipe p{
+    width: fit-content;
+}
+table{
+    padding-top: 20px;
+    margin:0;
+    border-collapse: collapse;
 }
 td{
     padding: 20px;
-    width: 30%;
+    width: 10%;
 }
 .lightgray{
     background-color: #efefef;
@@ -39,10 +54,11 @@ td{
     justify-content: center;
     height: 20px;
     width: 20px;
-    padding-right: 5px;
 }
 .info{
     display: flex;
+    width: 50%;
+    gap: 1rem;
 }
 .info-lines{
     
@@ -52,12 +68,13 @@ td{
     padding-left:10px;
     padding-right: 10px;
     height: min-content;
+    flex:auto;
 }
 .info-lines p{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 30px;
+    padding: 10px 10px;
     margin: 0;
 }
 .cooking p{
