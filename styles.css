@@ -1,0 +1,57 @@
+body{
+    padding: 30px;
+}
+img{
+    background-position: center;
+    border-radius:10px;
+    width: 80%;
+    height: 200px;
+    background-size:20%;
+    background-position: 20%;
+}
+.navbar{
+    height:100px;
+}
+a{
+    background-color:green;
+    color:yellow;
+    text-align: center;
+    text-decoration: none;
+}
+label{
+    background-color: green;
+    text-align: center;
+    padding-left:30px;
+    padding-right:30px;
+}
+td{
+    padding: 20px;
+    width: 30%;
+}
+.lightgray{
+    background-color: #efefef;
+    border-radius:5px;
+    height:fit-content;
+}
+.icons{
+    height: 20px;
+    width: 20px;
+    padding-right: 15px;
+}
+.info{
+    display: flex;
+}
+.info-lines{
+    
+    display: flex;
+    align-items: center;
+    width:min-content;
+    padding-left:10px;
+    padding-right: 30px;
+}
+.info-lines p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
