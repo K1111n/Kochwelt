@@ -20,7 +20,7 @@ header{
 input{
     height:40px;
 }
-label{
+.recipe label{
     background-color: green;
     color:white;
     display: flex;
@@ -96,4 +96,37 @@ td{
     width:fit-content;
     padding: 10px;
     display: flex;
+}
+
+/* Contact-Site*/
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form{
+    margin-top: 70px;
+    background-color: #efefef;
+    border-radius: 20px;
+    padding: 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textbox{
+    height: 40px;
+    width:100%;
+}
+.big-textbox{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#submit{
+    background-color: #008000;
+    color: white;
+    width: 60%;
+    margin:auto;
 }
