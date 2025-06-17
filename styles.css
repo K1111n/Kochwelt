@@ -12,6 +12,7 @@ body{
 .header{
     height:100px;
     display: flex;
+    flex-direction: row;
 
 }
 
@@ -22,7 +23,7 @@ body{
 
 .headmenu{
     display: flex;
-    
+
 }
 a{
     background-color:green;
