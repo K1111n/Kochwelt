@@ -1,6 +1,12 @@
 body{
     padding: 130px;
 }
+header{
+    height:100px;
+}
+
+/*Dish-Intro*/
+
 .dish{
     object-fit: cover;    
     object-position: center;
@@ -9,9 +15,43 @@ body{
     height: 200px;
     padding-bottom: 50px;
 }
-header{
-    height:100px;
+.lightgray{
+    background-color: #efefef;
+    border-radius:5px;
+    height:fit-content;
 }
+.icons{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+}
+.info{
+    display: flex;
+    width: 50%;
+    gap: 1rem;
+    margin-bottom: 70px;
+}
+.info-lines{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:fit-content;
+    padding-left:10px;
+    padding-right: 10px;
+    height: min-content;
+    flex:auto;
+}
+.info-lines p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 0;
+}
+
+/*Portions*/ 
+
 .portions{
     display: flex;
     gap: 10px;
@@ -30,6 +70,9 @@ input{
 .recipe p{
     width: fit-content;
 }
+
+/*Recipe*/ 
+
 table{
     margin:0;
     border-collapse: collapse;
@@ -57,41 +100,9 @@ td{
     padding-left:0px;
     padding-right:20px;
 }
-.lightgray{
-    background-color: #efefef;
-    border-radius:5px;
-    height:fit-content;
-}
-.icons{
-    display: flex;
-    justify-content: center;
-    height: 20px;
-    width: 20px;
-}
-.info{
-    display: flex;
-    width: 50%;
-    gap: 1rem;
-    margin-bottom: 70px;
-}
-.info-lines{
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width:fit-content;
-    padding-left:10px;
-    padding-right: 10px;
-    height: min-content;
-    flex:auto;
-}
-.info-lines p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 10px;
-    margin: 0;
-}
+
+/*Cooking-Section*/
+
 .cooking-instructions p{
     width:fit-content;
     padding: 10px;
