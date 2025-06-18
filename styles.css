@@ -1,49 +1,58 @@
-
-main{
+main {
     padding: 3rem;
 }
-header{
-    height:100px;
+
+header {
+    height: 100px;
 }
 
 /*Dish-Intro*/
 
-.dish{
-    object-fit:cover;    
+.dish {
+    object-fit: cover;
     object-position: center;
-    border-radius:10px;
+    border-radius: 10px;
     width: 100%;
     height: 200px;
     padding-bottom: 50px;
 }
-.lightgray{
-    background-color: #efefef;
-    border-radius:5px;
-    height:fit-content;
+
+.info-lines {
+    width: 100%;
 }
-.icons{
+
+.lightgray {
+    background-color: #efefef;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.icons {
     display: flex;
     justify-content: center;
     height: 20px;
     width: 20px;
 }
-.info{
+
+.info {
     display: flex;
     width: 50%;
     gap: 1rem;
     margin-bottom: 70px;
 }
-.info-lines{
+
+.info-lines {
     display: flex;
     align-items: center;
     justify-content: center;
-    width:fit-content;
-    padding-left:10px;
+    width: fit-content;
+    padding-left: 10px;
     padding-right: 10px;
     height: min-content;
-    flex:auto;
+    flex: auto;
 }
-.info-lines p{
+
+.info-lines p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,102 +60,119 @@ header{
     margin: 0;
 }
 
-/*Portions*/ 
+/*Portions*/
 
-.portions{
+.portions {
     display: flex;
     align-items: center;
     gap: 10px;
     padding-bottom: 30px;
 }
-input{
-    height:40px;
+
+input {
+    height: 40px;
 }
 
-.recipe p{
+.recipe p {
     width: fit-content;
 }
 
-/*Recipe*/ 
+/*Recipe*/
 
-table{
-    margin:0;
+table {
+    margin: 0;
     border-collapse: collapse;
     padding-right: 0px;
-    margin-bottom:50px;
+    margin-bottom: 50px;
     width: 100%;
 }
-tbody{
+
+tbody {
     display: flex;
     flex-direction: column;
 }
-tr{
+
+tr {
     display: flex;
 }
-td{
+
+td {
     padding-top: 20px;
     padding-bottom: 20px;
     width: fit-content;
 }
-.nopadding-right{
-    padding-right:5px;
+
+.nopadding-right {
+    padding-right: 5px;
     padding-left: 20px;
 }
-.nopadding-left{
-    padding-left:0px;
-    padding-right:20px;
+
+.nopadding-left {
+    padding-left: 0px;
+    padding-right: 20px;
 }
 
 /*Cooking-Section*/
 
-.cooking-instructions p{
-    width:fit-content;
+.cooking-instructions p {
+    width: fit-content;
     padding: 10px;
     display: flex;
 }
 
 @media (max-width:1000px) {
-    .info{
+    .info {
         width: 100%;
     }
 }
+
 @media (max-width:600px) {
-    .info{
+    .info {
         flex-direction: column;
         align-items: center;
     }
-    h1, h2, h3{
+
+    h1,
+    h2,
+    h3 {
         text-align: center;
     }
-    h1{ 
+
+    h1 {
         font-size: 1.7rem;
     }
-    h2{ 
+
+    h2 {
         font-size: 1.5rem;
     }
-    h3{ 
+
+    h3 {
         font-size: 1.3rem;
     }
-    .portions{
+
+    .portions {
         flex-direction: column;
         align-items: center;
     }
-    .dish{
-        object-fit:none;  
+
+    .dish {
+        object-fit: none;
     }
-    .info-lines{
+
+    .info-lines {
         width: 100%;
     }
 }
 
 /* Contact-Site*/
 
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contact-form{
+
+.contact-form {
     margin-top: 70px;
     background-color: #efefef;
     border-radius: 20px;
@@ -156,24 +182,27 @@ td{
     flex-direction: column;
     justify-content: center;
 }
-.textbox{
+
+.textbox {
     height: 40px;
-    width:100%;
+    width: 100%;
 }
-.big-textbox{
+
+.big-textbox {
     height: 200px;
     width: 100%;
     margin-bottom: 10px;
 }
-#submit{
+
+#submit {
     background-color: #008000;
     color: white;
     width: 60%;
-    margin:auto;
+    margin: auto;
 }
 
 @media (max-width: 800px) {
-    .contact-form{
+    .contact-form {
         width: 70%;
     }
 
@@ -181,8 +210,8 @@ td{
 
 /*Jonas-css-stuff*/
 
-header{
-    height:100px;
+header {
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -192,14 +221,14 @@ header{
     margin-bottom: 7px;
 }
 
-.logo{
+.logo {
     padding-top: 15px;
     padding-bottom: 15px;
     height: 70px;
     width: auto;
 }
 
-.headmenu{
+.headmenu {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -208,24 +237,27 @@ header{
 
 }
 
-.navlinks{
+.navlinks {
     margin-left: 20px;
     color: black;
     text-decoration: none;
 }
-.navlinks:hover{
+
+.navlinks:hover {
     color: rgb(0, 167, 0);
     text-shadow: #000000;
     text-decoration: underline;
 }
-.rezeptdestagesimg{
+
+.rezeptdestagesimg {
     width: 350px;
     height: 200px;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
 }
-.rdt{
+
+.rdt {
     display: flex;
     flex-direction: row;
     padding-left: 3rem;
@@ -234,25 +266,28 @@ header{
     padding-bottom: 50px;
 
 }
-.rezeptdestages{
+
+.rezeptdestages {
     display: flex;
     flex-direction: column;
 
     padding-left: 25px;
 }
-#rdtheadline{
-    margin:0;
+
+#rdtheadline {
+    margin: 0;
     margin-bottom: 20px;
-    
+
 
 }
-footer{
+
+footer {
     background-color: #403b3b;
     height: 200px;
     margin-top: 20px;
 }
 
-button{
+button {
     display: flex;
     background-color: #008000;
     justify-content: center;
@@ -266,16 +301,17 @@ button{
     width: fit-content;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
     background-color: #00bd00;
 
 }
-body{
+
+body {
     margin: 0;
 }
 
-.dishsection{
+.dishsection {
     padding-left: 3rem;
     padding-right: 3rem;
     display: flex;
@@ -284,28 +320,32 @@ body{
     padding-bottom: 50px;
 
 }
-h2{
+
+h2 {
 
     font-size: 24px;
     font-weight: 400;
 }
-h3{
+
+h3 {
     font-size: 16px;
     font-weight: 400;
 }
-.dishes{
+
+.dishes {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 
 }
-.columndishes{
+
+.columndishes {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.dishimg{
+.dishimg {
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -315,18 +355,18 @@ h3{
     margin-right: 20px;
 }
 
-.pvw{
+.pvw {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 70px;
 }
 
-.textalgin{
+.textalgin {
     text-align: center;
 }
 
-.pvwmain{
+.pvwmain {
     padding-left: 3rem;
     padding-right: 3rem;
 }
