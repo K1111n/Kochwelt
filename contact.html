@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
     <title>Kontakt</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -24,10 +25,12 @@
         <input type="text" id="name" class="textbox" required />
 
         <label for="email">Deine Email:</label>
-        <input type="text" id="email" class="textbox" required />
+        <input type="email" id="email" name="email" class="textbox" required />
 
-        <label for="message">Deine Nachricht:</label>
-        <input type="text" id="message" class="big-textbox" required />
+        <label
+          >Deine Nachricht:
+          <textarea name="message" class="big-textbox"></textarea>
+        </label>
 
         <input type="submit" id="submit" />
       </form>
