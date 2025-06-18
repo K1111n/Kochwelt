@@ -62,13 +62,7 @@ header{
 input{
     height:40px;
 }
-.recipe label{
-    background-color: green;
-    color:white;
-    display: flex;
-    align-items: center;
-    padding: 10px 40px;
-}
+
 .recipe p{
     width: fit-content;
 }
@@ -189,8 +183,8 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 130px;
-    padding-right: 130px;
+    padding-left: 3rem;
+    padding-right: 3rem;
     box-shadow: 0px 7px 5px #efefef;
     margin-bottom: 7px;
 }
@@ -231,8 +225,8 @@ header{
 .rdt{
     display: flex;
     flex-direction: row;
-    padding-left: 130px;
-    padding-right: 130px;
+    padding-left: 3rem;
+    padding-right: 3rem;
     padding-top: 50px;
     padding-bottom: 50px;
 
@@ -279,8 +273,8 @@ body{
 }
 
 .dishsection{
-    padding-left: 130px;
-    padding-right: 130px;
+    padding-left: 3rem;
+    padding-right: 3rem;
     display: flex;
     flex-direction: column;
     background-color: #efefef;
@@ -327,4 +321,9 @@ h3{
 
 .textalgin{
     text-align: center;
+}
+
+.pvwmain{
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
