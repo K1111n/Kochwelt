@@ -252,6 +252,7 @@ header{
 footer{
     background-color: #403b3b;
     height: 200px;
+    margin-top: 20px;
 }
 
 button{
