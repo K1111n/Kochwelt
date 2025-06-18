@@ -134,6 +134,9 @@ td{
     .dish{
         object-fit:none;  
     }
+    .info-lines{
+        width: 100%;
+    }
 }
 
 /* Contact-Site*/
