@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
     <title>Kontakt</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -11,23 +12,25 @@
     <section class="contact">
       <h2>Kontakt</h2>
       <ul>
-        <li>das passende Rezept nicht gefunden?</li>
-        <li>oder gibt es Fragen zu bestehenden Rezepten?</li>
+        <li>Das passende Rezept nicht gefunden?</li>
+        <li>Oder gibt es Fragen zu bestehenden Rezepten?</li>
         <li>
-          stelle deine Fragen gerne per Mail und wir bemühen uns um dein
+          Stelle deine Fragen gerne per Mail und wir bemühen uns um dein
           Anliegen
         </li>
       </ul>
 
-      <form action="" class="contact-form">
+      <form onsubmit="sendMail(event)" class="contact-form">
         <label for="name">Dein Name:</label>
         <input type="text" id="name" class="textbox" required />
 
         <label for="email">Deine Email:</label>
-        <input type="text" id="email" class="textbox" required />
+        <input type="email" id="email" name="email" class="textbox" required />
 
-        <label for="message">Deine Nachricht:</label>
-        <input type="text" id="message" class="big-textbox" required />
+        <label
+          >Deine Nachricht:
+          <textarea name="message" class="big-textbox"></textarea>
+        </label>
 
         <input type="submit" id="submit" />
       </form>

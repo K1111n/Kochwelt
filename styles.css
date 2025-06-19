@@ -9,6 +9,7 @@ header {
 /*Dish-Intro*/
 
 .dish {
+    object-fit: cover;
     object-position: center;
     border-radius: 10px;
     width: 100%;
@@ -332,6 +333,10 @@ h3 {
     font-weight: 400;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .dishes {
     display: flex;
     flex-direction: row;
@@ -369,7 +374,4 @@ h3 {
 .pvwmain {
     padding-left: 3rem;
     padding-right: 3rem;
-}
-.testababab{
-    balllsal
 }
