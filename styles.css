@@ -234,6 +234,8 @@ header {
     margin-left: 20px;
     color: black;
     text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .navlinks:hover {
@@ -302,6 +304,7 @@ button:hover {
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .dishsection {
@@ -315,7 +318,6 @@ body {
 }
 
 h2 {
-
     font-size: 24px;
     font-weight: 400;
 }
@@ -369,31 +371,33 @@ h3 {
 }
 
 .resp_menu_box{
-    background-color: rgb(123,123,123);
+    background-color:#efefef;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
-    width: 180px;
-    height: 350px;
-
+    width: 100%;
+    height: fit-content;
+    align-items: center;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 100px;
+    justify-content: center;
+
+    transition: all 0.3s ease-in-out;
 
 }
 
 .menuimg{
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
 }
 
 .resp_menu_closed{
-    transform: translateX(100%);
+    transform:scale(100%,0);
 }
 
 .content{
-    overflow: hidden;
-    position: relative;
+    overflow-x: hidden;
+
 }
 
 .menuimg:hover{
