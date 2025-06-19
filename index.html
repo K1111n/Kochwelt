@@ -5,6 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kochwelt</title>
+  <link rel="icon" href="./img/logo_small.png" type="image/x-icon">
+
+  <script src="./script.js"></script>
+
   <link rel="icon" href="./s_r_w/assets/img/1_hero/PNG/sakura_logo.png" type="image/x-icon" />
 
   <link rel="stylesheet" href="styles.css" />
@@ -19,16 +23,25 @@
 </head>
 
 <body>
+  <div class="content">
   <header>
     <img class="logo" src="./img/logo.png" alt="Logo mit Schriftzug, Kochwelt" />
 
-    <nav class="headmenu">
+    
+    <img onclick="togglerespmenu()" class="menuimg" src="./img/icons/menu-circle-3-64.png" alt="Menu icon">
+
+  </header>
+  
+<nav id="respmenu" class="resp_menu_box resp_menu_closed">
+      <button onclick="togglerespmenu()">close menu</button>
       <a class="navlinks" href="start"> Start </a>
       <a class="navlinks" href="rezept"> Rezept des Tages </a>
       <a class="navlinks" href="kontakt"> Kontakt </a>
       <a class="navlinks" href="impressum"> Impressum </a>
     </nav>
-  </header>
+
+</div>
+
 
     <section class="rdt">
       <img class="rezeptdestagesimg" src="./img/pesto-penne-tomatoes-130.jpg" alt="Bild von Pesto penne" />
@@ -60,8 +73,8 @@
         </div>
 
         <div class="dishimg">
-          <img class="dishimg" src="dish3" alt="gerichtdrei" />
-          <h3>Gericht XY</h3>
+          <img class="dishimg" src="./img/Lasagne.png" alt="Lasagne auf Teller" />
+          <h3>Lasagne</h3>
         </div>
       </div>
     </section>
