@@ -14,3 +14,7 @@ function sendMail(event){﻿
         console.log(error);
     });
 }
+
+function togglerespmenu() {
+    document.getElementById("respmenu").classList.toggle("resp_menu_closed");
+}
