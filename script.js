@@ -15,7 +15,7 @@ function sendMail(event){﻿
     });
 }
 
-<<<<<<< HEAD
+
 let portions;
 let currentValue;
 let newValue;
@@ -25,8 +25,9 @@ document.getElementById("button").onclick = function() {
     currentValue = parseFloat(document.getElementById("left-data").textContent);
     newValue = currentValue * portions;
     document.getElementById("left-data").textContent = newValue.toFixed(2);
-=======
+
 function togglerespmenu() {
     document.getElementById("respmenu").classList.toggle("resp_menu_closed");
->>>>>>> 853369ba60a5957aabd1464894d5fea52822b82a
+}
+
 }
