@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const num = parseFloat(original);
 
       if (!isNaN(num)) {
-        const newValue = (num * portions).toFixed(2).replace(/\.00$/, ""); //\. steht für einen echten Punkt; $ bedeutet „am Ende des Strings"
+        const newValue = (num * portions).toFixed(2).replace(/\.00$/, ""); // \. steht für einen echten Punkt; $ bedeutet „am Ende des Strings"
         td.textContent = newValue;
       } else {
         td.textContent = original; // wenn es kein numerischer Wert ist soll nichts geändert werden
