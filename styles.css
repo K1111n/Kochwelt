@@ -202,6 +202,10 @@ td {
   width: 60%;
   margin: auto;
 }
+#submit:hover {
+  cursor: pointer;
+  background-color: #00bd00;
+}
 
 @media (max-width: 800px) {
   .contact-form {
