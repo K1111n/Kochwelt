@@ -435,3 +435,9 @@ h3 {
     height: 50px;
   }
 }
+
+.max-width {
+  max-width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
+}
