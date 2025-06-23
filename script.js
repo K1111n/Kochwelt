@@ -14,3 +14,14 @@ function sendMail(event){﻿
         console.log(error);
     });
 }
+
+let portions;
+let currentValue;
+let newValue;
+
+document.getElementById("button").onclick = function() {
+    portions = parseFloat(document.getElementById("input").value);
+    currentValue = parseFloat(document.getElementById("left-data").textContent);
+    newValue = currentValue * portions;
+    document.getElementById("left-data").textContent = newValue.toFixed(2);
+}
