@@ -1,6 +1,6 @@
 function sendMail(event){﻿
     event.preventDefault();
-    const data = new FormData(event.target);
+    const form = event.target;
 
     fetch("https://formspree.io/f/xpwrlyvk", {
         method: "POST",
@@ -9,6 +9,7 @@ function sendMail(event){﻿
             'Accept': 'application/json'
         }
     }).then(() => {
+        form.reset();
         window.location.href = "./send_mail.html";
     }).catch((error) => {
         console.log(error);
