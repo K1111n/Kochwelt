@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lasagne</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./img/logo_small.png" type="image/x-icon" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <a href="./index.html"
+          ><img
+            class="logo"
+            src="./img/logo.png"
+            alt="Logo mit Schriftzug, Kochwelt"
+          />
+        </a>
+
+        <img
+          onclick="togglerespmenu()"
+          class="menuimg"
+          src="./img/icons/menu-circle-3-64.png"
+          alt="Menu icon"
+        />
+      </header>
+      <nav id="respmenu" class="resp_menu_box resp_menu_closed">
+        <a class="navlinks" href="./index.html"> Start </a>
+        <a class="navlinks" href="./pesto.html"> Rezept des Tages </a>
+        <a class="navlinks" href="./contact.html"> Kontakt </a>
+        <a class="navlinks" href="./impressum.html"> Impressum </a>
+      </nav>
+    </div>
+    <main>
+      <h1>Lasagne</h1>
+
+      <img src="./img/Lasagne.png" alt="Lasagne img" class="dish" />
+      <div class="info">
+        <div class="info-lines lightgray">
+          <img src="/img/icons/clock-regular.svg" alt="clock" class="icons" />
+          <p>20 Min</p>
+        </div>
+        <div class="info-lines lightgray">
+          <img src="/img/icons/brain-solid.svg" alt="brain" class="icons" />
+          <p>Mittel</p>
+        </div>
+        <div class="info-lines lightgray">
+          <img
+            src="/img/icons/calendar-alt-regular.svg"
+            alt="calender"
+            class="icons"
+          />
+          <p>20.06.2025</p>
+        </div>
+      </div>
+
+      <hr />
+
+      <section class="recipe">
+        <div class="portions">
+          <p>Zutaten für:</p>
+          <input min="1" max="10" type="number" name="portions" id="portions" />
+          <button>Portionen</button>
+        </div>
+
+        <table>
+          <tr class="lightgray">
+            <td class="nopadding-right">125 g</td>
+            <td class="nopadding-left">Hackfleisch</td>
+          </tr>
+          <tr>
+            <td class="nopadding-right">0.25</td>
+            <td class="nopadding-left">Zwiebel(n)</td>
+          </tr>
+          <tr class="lightgray">
+            <td class="nopadding-right">0.25</td>
+            <td class="nopadding-left">Knoblauchzehe(n)</td>
+          </tr>
+          <tr>
+            <td class="nopadding-right">0.25 Bund</td>
+            <td class="nopadding-left">Petersilie</td>
+          </tr>
+          <tr class="lightgray">
+            <td class="nopadding-right">0.25 EL</td>
+            <td class="nopadding-left">Tomatenmark</td>
+          </tr>
+          <tr>
+            <td class="nopadding-right">200 g</td>
+            <td class="nopadding-left">Tomaten, geschält (Dosen)</td>
+          </tr>
+          <tr class="lightgray">
+            <td class="nopadding-right">50 ml</td>
+            <td class="nopadding-left">Rotwein</td>
+          </tr>
+          <tr>
+            <td class="nopadding-right">125 ml</td>
+            <td class="nopadding-left">Milch</td>
+          </tr>
+          <tr class="lightgray">
+            <td class="nopadding-right">10 g</td>
+            <td class="nopadding-left">Butter</td>
+          </tr>
+          <tr>
+            <td class="nopadding-right">10 g</td>
+            <td class="nopadding-left">Mehl</td>
+          </tr>
+          <tr class="lightgray">
+            <td class="nopadding-right">75 g</td>
+            <td class="nopadding-left">Lasasgnenplatten</td>
+          </tr>
+          <tr>
+            <td class="nopadding-right">10 g</td>
+            <td class="nopadding-left">Butter</td>
+          </tr>
+          <tr class="lightgray">
+            <td class="nopadding-right">20 g</td>
+            <td class="nopadding-left">Geriebener Cheddar</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="cooking-instructions">
+        <h2>Zubereitung</h2>
+
+        <div class="info">
+          <div class="info-lines lightgray">
+            <img src="/img/icons/clock-regular.svg" alt="clock" class="icons" />
+            <p>Zeit 30 min</p>
+          </div>
+          <div class="info-lines lightgray">
+            <img src="/img/icons/clock-regular.svg" alt="clock" class="icons" />
+            <p>Gesamtzeit 50 min</p>
+          </div>
+        </div>
+
+        <ol>
+          <li>
+            Ragú Bolognese:<br> In einem Topf das Olivenöl erhitzen, das Hackfleisch
+            darin rundherum anbraten und die gehackten Zwiebeln und die gehackte
+            Petersilie dazugeben. Knoblauch in feinen Scheiben und Tomatenmark
+            dazu rühren und mitbraten. Mit den Dosentomaten aufgießen, salzen
+            und pfeffern. Rotwein nach Belieben beifügen. Das Ragú mindestens
+            eine halbe Stunde lang bei geöffnetem Topf einkochen lassen.
+          </li>
+          <br />
+          <li>
+            Béchamelsauce:
+            <br> Butter in einem kleinen Topf schmelzen und das Mehl
+            mit dem Schneebesen unterrühren und hellgelb anschwitzen. Die Milch
+            dazugießen und die Sauce glatt rühren. Wer zu langsam gerührt hat
+            und Klümpchen in der Sauce findet, kann die Sauce durch ein feines
+            Haarsieb passieren und dann weiterkochen lassen. Die Sauce sollte
+            fast eine halbe Stunde lang auf kleiner Flamme köcheln, damit sie
+            den Mehlgeschmack verliert. Mit Salz, Pfeffer und Zitronensaft sowie
+            etwas Muskatnuss abschmecken.
+          </li>
+          <br />
+          <li>
+            Zubereitung der Lasagne:<br> In einer gebutterten, feuerfesten Form
+            etwas Ragú Bolognese verteilen, eine Schicht Lasagneplatten darauf
+            legen, die Nudelschicht wieder mit Ragú und dann mit einer Schicht
+            Béchamel bedecken. Anschließend wieder eine Schicht Nudeln, Ragú und
+            Béchamel. So Schicht für Schicht die Form füllen. Die letzte Schicht
+            sollte die Béchamelsauce bilden. Dick mit geriebenem Käse
+            bestreuen..
+          </li>
+          <br />
+          <li>
+            Die Lasagne im heißen Backofen bei 180 °C Umluft ca. 30 - 40 Minuten
+            backen, bis die Kruste goldbraun ist.
+          </li>
+          <br />
+          <li>10 min Abkühlen lassen und genießen.</li>
+          <br />
+        </ol>
+      </section>
+
+      <h3>Rezept erstellt von Jonas Stegner</h3>
+    </main>
+    <footer></footer>
+  </body>
+</html>

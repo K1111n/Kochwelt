@@ -1,67 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kochwelt</title>
+    <link rel="icon" href="./img/logo_small.png" type="image/x-icon" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kochwelt</title>
-  <link rel="icon" href="./s_r_w/assets/img/1_hero/PNG/sakura_logo.png" type="image/x-icon" />
+    <script src="./script.js"></script>
 
-  <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="./s_r_w/assets/img/1_hero/PNG/sakura_logo.png"
+      type="image/x-icon"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-</head>
+    <link rel="stylesheet" href="styles.css" />
 
-<body>
-  <header>
-    <img class="logo" src="./img/logo.png" alt="Logo mit Schriftzug, Kochwelt" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <nav class="headmenu">
-      <a class="navlinks" href="start"> Start </a>
-      <a class="navlinks" href="rezept"> Rezept des Tages </a>
-      <a class="navlinks" href="kontakt"> Kontakt </a>
-      <a class="navlinks" href="impressum"> Impressum </a>
-    </nav>
-  </header>
+  <body>
+    <div class="content">
+      <header>
+        <a href="./index.html"
+          ><img
+            class="logo"
+            src="./img/logo.png"
+            alt="Logo mit Schriftzug, Kochwelt"
+          />
+        </a>
+
+        <img
+          onclick="togglerespmenu()"
+          class="menuimg"
+          src="./img/icons/menu-circle-3-64.png"
+          alt="Menu icon"
+        />
+      </header>
+      <nav id="respmenu" class="resp_menu_box resp_menu_closed">
+        <a class="navlinks" href="./index.html"> Start </a>
+        <a class="navlinks" href="./pesto.html"> Rezept des Tages </a>
+        <a class="navlinks" href="./contact.html"> Kontakt </a>
+        <a class="navlinks" href="./impressum.html"> Impressum </a>
+      </nav>
+    </div>
 
     <section class="rdt">
-      <img class="rezeptdestagesimg" src="./img/pesto-penne-tomatoes-130.jpg" alt="Bild von Pesto penne" />
+      <img
+        class="rezeptdestagesimg"
+        src="./img/pesto-penne-tomatoes-130.jpg"
+        alt="Bild von Pesto penne"
+      />
 
       <div class="rezeptdestages">
         <h2 id="rdtheadline">Penne Pesto</h2>
-        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe cum nemo libero perferendis. Culpa, autem. Minima ducimus expedita enim. Quibusdam consequatur saepe vero facilis eos, sapiente a quisquam vitae repudiandae! </p>
+        <p>
+          Pesto Penne ist ein einfaches Nudelgericht mit aromatischem
+          Basilikum-Pesto aus frischen Kräutern, Pinienkernen, Parmesan und
+          Olivenöl. Die Pasta wird cremig umhüllt und kann mit Cherrytomaten
+          oder Rucola verfeinert werden. Geschmack: Frisch, würzig, nussig
+        </p>
 
-        <button>Rezept Öffnen</button>
+        <a href="./pesto.html"><button>Rezept Öffnen</button></a>
       </div>
     </section>
 
-    <section class="dishsection ">
+    <section class="dishsection">
       <h2 class="textalgin">Lust auf was Neues?</h2>
 
       <div class="dishes">
         <div class="columndishes">
-          <img class="dishimg" src="./img/pesto-penne-tomatoes-130.jpg" alt="penne pesto gericht" />
+          <a href="./pesto.html"
+            ><img
+              class="dishimg"
+              src="./img/pesto-penne-tomatoes-130.jpg"
+              alt="penne pesto gericht"
+          /></a>
           <h3>Penne Pesto</h3>
         </div>
 
-        <div>
-          <img class="dishimg"
-            href="./frikassee.html"
-            src="./frikassee5.webp"
-            alt="Hühnerfrikassee Bild"
-          />
+        <div class="columndishes">
+          <a href="./frikassee.html"
+            ><img
+              class="dishimg"
+              href="./frikassee.html"
+              src="./frikassee5.webp"
+              alt="Hühnerfrikassee Bild"
+          /></a>
           <h3>Hühner Frikarssee</h3>
         </div>
 
-        <div class="dishimg">
-          <img class="dishimg" src="dish3" alt="gerichtdrei" />
-          <h3>Gericht XY</h3>
+        <div class="columndishes">
+          <a href="./lasagne.html"
+            ><img
+              class="dishimg"
+              src="./img/Lasagne.png"
+              alt="Lasagne auf Teller"
+          /></a>
+          <h3>Lasagne</h3>
         </div>
       </div>
     </section>
@@ -70,11 +115,23 @@
       <h2 class="textalgin">Pfanne vs. Wok - Was ist besser?</h2>
 
       <div class="pvw">
-        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae quasi ratione nesciunt eius, ea corporis, dolorum, facilis natus minima provident sit amet deserunt iusto fugit totam. Quasi, voluptas at. </p>
-        <img class="dishimg" src="./img/wok.jpg" alt="wok with vegetables in it" />
+        <p>
+          Ob Pfanne oder Wok besser ist, hängt vom Einsatz ab. Eine Pfanne
+          eignet sich ideal zum Braten, Schmoren oder für gleichmäßiges Garen –
+          besonders bei westlichen Gerichten. Der Wok hingegen punktet bei
+          asiatischer Küche: Hohe Hitze, kurze Garzeiten und das typische
+          „Wok-Hei“ verleihen Gemüse und Fleisch ein besonders aromatisches
+          Röstaroma. Für schnelles, fettarmes Kochen ist der Wok im Vorteil,
+          während die Pfanne vielseitiger im Alltag ist. Fazit: Für asiatische
+          Gerichte – Wok. Für universelles Kochen – Pfanne.
+        </p>
+        <img
+          class="dishimg"
+          src="./img/wok.jpg"
+          alt="wok with vegetables in it"
+        />
       </div>
     </section>
-  <footer></footer>
-</body>
-
+    <footer></footer>
+  </body>
 </html>
