@@ -13,7 +13,6 @@ html{
   flex-direction: column;
   width: 100%;
   margin:0 auto;
-  
 }
 main {
   padding: 3rem;
@@ -514,6 +513,8 @@ flex: 1;
     padding-bottom: 50px;
     padding-left: 3rem;
     padding-right: 3rem;
+    max-width: 1920px;
+    margin:0 auto;
 }
 .icon-socials{
     width: 32px;
