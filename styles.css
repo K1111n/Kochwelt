@@ -1,9 +1,9 @@
 .all-but-header-footer{
   max-width: 1920px;
   margin: 0 auto;
-  flex:1;
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 main {
   padding: 3rem;
