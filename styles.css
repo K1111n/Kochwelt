@@ -226,7 +226,7 @@ header {
   justify-content: space-between;
   padding-left: 3rem;
   padding-right: 3rem;
-  box-shadow: 0px 7px 5px #efefef;
+
   margin-bottom: 7px;
   align-items: center;
 }
@@ -402,7 +402,7 @@ h3 {
 }
 
 .content {
-  overflow-x: hidden;
+  box-shadow: 0px 7px 5px #efefef;
 }
 
 .menuimg:hover {
