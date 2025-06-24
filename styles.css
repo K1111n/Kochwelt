@@ -313,6 +313,9 @@ button {
   border: none;
   width: fit-content;
 }
+.rezeptdestages a{
+  text-decoration: none;
+}
 
 button:hover {
   cursor: pointer;
