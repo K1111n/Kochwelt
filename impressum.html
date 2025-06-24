@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>Impressum</title>
+
+    <script src="./script.js"></script>
     <link
       rel="icon"
       href="./s_r_w/assets/img/1_hero/PNG/sakura_logo.png"
@@ -12,20 +14,30 @@
     />
   </head>
   <body>
-    <header>
-      <img
-        class="logo"
-        src="./img/logo.png"
-        alt="Logo mit Schriftzug, Kochwelt"
-      />
+    <div class="content">
+      <header class="max-width">
+        <a href="./index.html"
+          ><img
+            class="logo"
+            src="./img/logo.png"
+            alt="Logo mit Schriftzug, Kochwelt"
+          />
+        </a>
 
-      <nav class="headmenu">
-        <a class="navlinks" href="start"> Start </a>
-        <a class="navlinks" href="rezept"> Rezept des Tages </a>
-        <a class="navlinks" href="kontakt"> Kontakt </a>
-        <a class="navlinks" href="impressum"> Impressum </a>
+        <img
+          onclick="togglerespmenu()"
+          class="menuimg"
+          src="./img/icons/menu-circle-3-64.png"
+          alt="Menu icon"
+        />
+      </header>
+      <nav id="respmenu" class="resp_menu_box resp_menu_closed">
+        <a class="navlinks" href="./index.html"> Start </a>
+        <a class="navlinks" href="./pesto.html"> Rezept des Tages </a>
+        <a class="navlinks" href="./contact.html"> Kontakt </a>
+        <a class="navlinks" href="./impressum.html"> Impressum </a>
       </nav>
-    </header>
+    </div>
 
     <main class="all-but-header-footer">
       <h1>Impressum</h1>
