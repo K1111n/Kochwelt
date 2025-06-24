@@ -311,7 +311,6 @@ header {
 footer {
   background-color: #403b3b;
   margin-top: auto;
-  padding-top: 150px;
   }
 
 button {
@@ -500,4 +499,37 @@ h3 {
 .footer-upper-space {
 display: flex;
 flex: 1;
+}
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #403b3b;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.icon-socials{
+    width: 32px;
+    height: 32px;
+    }
+.socials{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: flex-end;
+    flex: 1;
+    gap:20px;
+
+}
+.logo-footer{
+    height: 44px;
+    width: auto;
 }
