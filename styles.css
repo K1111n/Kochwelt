@@ -103,12 +103,12 @@ td {
   width: fit-content;
 }
 
-.nopadding-right {
+.left-table-column {
   padding-right: 5px;
   padding-left: 20px;
 }
 
-.nopadding-left {
+.right-table-column {
   padding-left: 0px;
   padding-right: 20px;
 }
