@@ -415,6 +415,9 @@ h3 {
   cursor: pointer;
   transform: scale(1.1);
 }
+.pvw p{
+    width:80%;
+  }
 
 @media (max-width: 680px) {
   .rdt {
@@ -448,6 +451,9 @@ h3 {
   }
   .logo {
     height: 50px;
+  }
+  .pvw p{
+    width:100%;
   }
 }
 
