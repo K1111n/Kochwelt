@@ -6,7 +6,6 @@ html{
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   min-height: 100vh;
 }
 .all-but-header-footer{
@@ -14,9 +13,7 @@ html{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-=======
   
->>>>>>> e29f0a5102a0d839d560c79c8fac66f601e66e39
 }
 main {
   padding: 3rem;
