@@ -1,13 +1,18 @@
 html{
   font-family: Raleway, sans-serif;
 }
-.all-but-header-footer{
+.all-but-header-footer-index{
   max-width: 1920px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  
+}
+.all-but-header-footer{
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 main {
   padding: 3rem;
