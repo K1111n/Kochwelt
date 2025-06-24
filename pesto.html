@@ -13,153 +13,144 @@
     />
   </head>
   <body>
-    <div class="all-but-footer">
-      <div class="content">
-        <header>
-          <a href="./index.html"
-            ><img
-              class="logo"
-              src="./img/logo.png"
-              alt="Logo mit Schriftzug, Kochwelt"
-            />
-          </a>
-
-          <img
-            onclick="togglerespmenu()"
-            class="menuimg"
-            src="./img/icons/menu-circle-3-64.png"
-            alt="Menu icon"
+    <div class="content">
+      <header>
+        <a href="./index.html"
+          ><img
+            class="logo"
+            src="./img/logo.png"
+            alt="Logo mit Schriftzug, Kochwelt"
           />
-        </header>
-        <nav id="respmenu" class="resp_menu_box resp_menu_closed">
-          <a class="navlinks" href="./index.html"> Start </a>
-          <a class="navlinks" href="./pesto.html"> Rezept des Tages </a>
-          <a class="navlinks" href="./contact.html"> Kontakt </a>
-          <a class="navlinks" href="./impressum.html"> Impressum </a>
-        </nav>
-      </div>
-      <main>
-        <h1>Penne Pesto</h1>
+        </a>
 
-        <img src="pestopenne.jpg" alt="Pesto Penne" class="dish" />
+        <img
+          onclick="togglerespmenu()"
+          class="menuimg"
+          src="./img/icons/menu-circle-3-64.png"
+          alt="Menu icon"
+        />
+      </header>
+      <nav id="respmenu" class="resp_menu_box resp_menu_closed">
+        <a class="navlinks" href="./index.html"> Start </a>
+        <a class="navlinks" href="./pesto.html"> Rezept des Tages </a>
+        <a class="navlinks" href="./contact.html"> Kontakt </a>
+        <a class="navlinks" href="./impressum.html"> Impressum </a>
+      </nav>
+    </div>
+
+    <main class="all-but-header-footer">
+      <h1>Penne Pesto</h1>
+
+      <img src="pestopenne.jpg" alt="Pesto Penne" class="dish" />
+      <div class="info">
+        <div class="info-lines lightgray">
+          <img src="/img/icons/clock-regular.svg" alt="clock" class="icons" />
+          <p>20 Min</p>
+        </div>
+        <div class="info-lines lightgray">
+          <img src="/img/icons/brain-solid.svg" alt="brain" class="icons" />
+          <p>simpel</p>
+        </div>
+        <div class="info-lines lightgray">
+          <img
+            src="/img/icons/calendar-alt-regular.svg"
+            alt="calender"
+            class="icons"
+          />
+          <p>17.06.2025</p>
+        </div>
+      </div>
+
+      <hr />
+
+      <section class="recipe">
+        <div class="portions">
+          <p>Zutaten für:</p>
+          <input min="1" max="10" type="number" name="portions" id="input" />
+          <button id="button">Portionen</button>
+        </div>
+
+        <table>
+          <tr class="lightgray">
+            <td class="left-table-column">200</td>
+            <td class="right-table-column">g Penne</td>
+          </tr>
+          <tr>
+            <td class="left-table-column">1</td>
+            <td class="right-table-column">TL Salz</td>
+          </tr>
+          <tr class="lightgray">
+            <td class="left-table-column">30</td>
+            <td class="right-table-column">g frisches Basilikum</td>
+          </tr>
+          <tr>
+            <td class="left-table-column">30</td>
+            <td class="right-table-column">g geriebener Parmesan(n)</td>
+          </tr>
+          <tr class="lightgray">
+            <td class="left-table-column">30</td>
+            <td class="right-table-column">g Pinienkerne</td>
+          </tr>
+          <tr>
+            <td class="left-table-column">1</td>
+            <td class="right-table-column">Knoblauchzehe(n)</td>
+          </tr>
+          <tr class="lightgray">
+            <td class="left-table-column">80</td>
+            <td class="right-table-column">ml Olivenöl (kaltgepresst)</td>
+          </tr>
+          <tr>
+            <td class="left-table-column"></td>
+            <td class="right-table-column">Salz & Pfeffer nach Geschmack</td>
+          </tr>
+          <tr class="lightgray">
+            <td class="left-table-column"></td>
+            <td class="right-table-column">
+              (Optional) Frisch geriebener Parmesan
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="cooking-instructions">
+        <h2 class="bold">Zubereitung</h2>
+
         <div class="info">
           <div class="info-lines lightgray">
             <img src="/img/icons/clock-regular.svg" alt="clock" class="icons" />
-            <p>20 Min</p>
+            <p>Zeit 20 min</p>
           </div>
           <div class="info-lines lightgray">
-            <img src="/img/icons/brain-solid.svg" alt="brain" class="icons" />
-            <p>simpel</p>
-          </div>
-          <div class="info-lines lightgray">
-            <img
-              src="/img/icons/calendar-alt-regular.svg"
-              alt="calender"
-              class="icons"
-            />
-            <p>17.06.2025</p>
+            <img src="/img/icons/clock-regular.svg" alt="clock" class="icons" />
+            <p>Gesamtzeit 30 min</p>
           </div>
         </div>
 
-        <hr />
+        <ol>
+          <li>Penne in Salzwasser nach Packungsangabe al dente kochen.</li>
+          <br />
+          <li>
+            Währenddessen: Pinienkerne kurz anrösten, Basilikum waschen,
+            Knoblauch schälen.
+          </li>
+          <br />
+          <li>
+            Alle Pesto-Zutaten (Basilikum, Parmesan, Pinienkerne, Knoblauch,
+            Olivenöl) im Mixer fein pürieren. Mit Salz & Pfeffer abschmecken.
+          </li>
+          <br />
+          <li>
+            Penne abgießen, mit Pesto vermengen. Nach Wunsch etwas Nudelwasser
+            für die Cremigkeit zugeben.
+          </li>
+          <br />
+          <li>Anrichten, mit Parmesan und Basilikum garnieren.</li>
+          <br />
+        </ol>
+      </section>
 
-        <section class="recipe">
-          <div class="portions">
-            <p>Zutaten für:</p>
-            <input min="1" max="10" type="number" name="portions" id="input" />
-            <button id="button">Portionen</button>
-          </div>
-
-          <table>
-            <tr class="lightgray">
-              <td class="left-table-column">200</td>
-              <td class="right-table-column">g Penne</td>
-            </tr>
-            <tr>
-              <td class="left-table-column">1</td>
-              <td class="right-table-column">TL Salz</td>
-            </tr>
-            <tr class="lightgray">
-              <td class="left-table-column">30</td>
-              <td class="right-table-column">g frisches Basilikum</td>
-            </tr>
-            <tr>
-              <td class="left-table-column">30</td>
-              <td class="right-table-column">g geriebener Parmesan(n)</td>
-            </tr>
-            <tr class="lightgray">
-              <td class="left-table-column">30</td>
-              <td class="right-table-column">g Pinienkerne</td>
-            </tr>
-            <tr>
-              <td class="left-table-column">1</td>
-              <td class="right-table-column">Knoblauchzehe(n)</td>
-            </tr>
-            <tr class="lightgray">
-              <td class="left-table-column">80</td>
-              <td class="right-table-column">ml Olivenöl (kaltgepresst)</td>
-            </tr>
-            <tr>
-              <td class="left-table-column"></td>
-              <td class="right-table-column">Salz & Pfeffer nach Geschmack</td>
-            </tr>
-            <tr class="lightgray">
-              <td class="left-table-column"></td>
-              <td class="right-table-column">
-                (Optional) Frisch geriebener Parmesan
-              </td>
-            </tr>
-          </table>
-        </section>
-
-        <section class="cooking-instructions">
-          <h2 class="bold">Zubereitung</h2>
-
-          <div class="info">
-            <div class="info-lines lightgray">
-              <img
-                src="/img/icons/clock-regular.svg"
-                alt="clock"
-                class="icons"
-              />
-              <p>Zeit 20 min</p>
-            </div>
-            <div class="info-lines lightgray">
-              <img
-                src="/img/icons/clock-regular.svg"
-                alt="clock"
-                class="icons"
-              />
-              <p>Gesamtzeit 30 min</p>
-            </div>
-          </div>
-
-          <ol>
-            <li>Penne in Salzwasser nach Packungsangabe al dente kochen.</li>
-            <br />
-            <li>
-              Währenddessen: Pinienkerne kurz anrösten, Basilikum waschen,
-              Knoblauch schälen.
-            </li>
-            <br />
-            <li>
-              Alle Pesto-Zutaten (Basilikum, Parmesan, Pinienkerne, Knoblauch,
-              Olivenöl) im Mixer fein pürieren. Mit Salz & Pfeffer abschmecken.
-            </li>
-            <br />
-            <li>
-              Penne abgießen, mit Pesto vermengen. Nach Wunsch etwas Nudelwasser
-              für die Cremigkeit zugeben.
-            </li>
-            <br />
-            <li>Anrichten, mit Parmesan und Basilikum garnieren.</li>
-            <br />
-          </ol>
-        </section>
-
-        <h3 class="bold">Rezept erstellt von Yunus</h3>
-      </main>
-    </div>
+      <h3 class="bold">Rezept erstellt von Yunus</h3>
+    </main>
     <footer></footer>
   </body>
 </html>

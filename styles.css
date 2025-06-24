@@ -1,6 +1,7 @@
-.all-but-footer{
+.all-but-header-footer{
   max-width: 1920px;
-  margin: 0 auto
+  margin: 0 auto;
+  width:100vw;
 }
 main {
   padding: 3rem;
@@ -313,7 +314,6 @@ body {
 }
 
 .dishsection {
-  width: 100vw;
   padding-left: 3rem;
   padding-right: 3rem;
   display: flex;
