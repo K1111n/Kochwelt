@@ -264,8 +264,8 @@ header {
 .rdt {
   display: flex;
   flex-direction: row;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -273,7 +273,6 @@ header {
 .rezeptdestages {
   display: flex;
   flex-direction: column;
-
   padding-left: 25px;
 }
 
@@ -370,8 +369,8 @@ h3 {
 }
 
 .pvwmain {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .resp_menu_box {
