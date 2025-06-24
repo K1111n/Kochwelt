@@ -1,7 +1,6 @@
 .all-but-header-footer{
   max-width: 1920px;
   margin: 0 auto;
-  width:100vw;
 }
 main {
   padding: 3rem;
@@ -176,6 +175,7 @@ td {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top:50px;
 }
 
 .contact-form {
@@ -317,8 +317,13 @@ body {
   padding-right: 3rem;
   display: flex;
   flex-direction: column;
-  background-color: #efefef;
   padding-bottom: 50px;
+}
+.background-max-width{
+  
+  background-color: #efefef;
+  width:100%;
+
 }
 
 h2 {
@@ -369,8 +374,8 @@ h3 {
 }
 
 .pvwmain {
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .resp_menu_box {
