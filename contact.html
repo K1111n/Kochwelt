@@ -13,56 +13,64 @@
     />
   </head>
   <body>
-    <div class="content">
-      <header>
-        <a href="./index.html"
-          ><img
-            class="logo"
-            src="./img/logo.png"
-            alt="Logo mit Schriftzug, Kochwelt"
+    <div class="all-but-footer">
+      <div class="content">
+        <header>
+          <a href="./index.html"
+            ><img
+              class="logo"
+              src="./img/logo.png"
+              alt="Logo mit Schriftzug, Kochwelt"
+            />
+          </a>
+
+          <img
+            onclick="togglerespmenu()"
+            class="menuimg"
+            src="./img/icons/menu-circle-3-64.png"
+            alt="Menu icon"
           />
-        </a>
+        </header>
+        <nav id="respmenu" class="resp_menu_box resp_menu_closed">
+          <a class="navlinks" href="./index.html"> Start </a>
+          <a class="navlinks" href="./pesto.html"> Rezept des Tages </a>
+          <a class="navlinks" href="./contact.html"> Kontakt </a>
+          <a class="navlinks" href="./impressum.html"> Impressum </a>
+        </nav>
+      </div>
+      <section class="contact">
+        <h2>Kontakt</h2>
+        <ul>
+          <li>Das passende Rezept nicht gefunden?</li>
+          <li>Oder gibt es Fragen zu bestehenden Rezepten?</li>
+          <li>
+            Stelle deine Fragen gerne per Mail und wir bemühen uns um dein
+            Anliegen
+          </li>
+        </ul>
 
-        <img
-          onclick="togglerespmenu()"
-          class="menuimg"
-          src="./img/icons/menu-circle-3-64.png"
-          alt="Menu icon"
-        />
-      </header>
-      <nav id="respmenu" class="resp_menu_box resp_menu_closed">
-        <a class="navlinks" href="./index.html"> Start </a>
-        <a class="navlinks" href="./pesto.html"> Rezept des Tages </a>
-        <a class="navlinks" href="./contact.html"> Kontakt </a>
-        <a class="navlinks" href="./impressum.html"> Impressum </a>
-      </nav>
+        <form onsubmit="sendMail(event)" class="contact-form">
+          <label for="name">Dein Name:</label>
+          <input type="text" id="name" class="textbox" required />
+
+          <label for="email">Deine Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="textbox"
+            required
+          />
+
+          <label
+            >Deine Nachricht:
+            <textarea name="message" class="big-textbox"></textarea>
+          </label>
+
+          <input type="submit" id="submit" />
+        </form>
+      </section>
     </div>
-    <section class="contact">
-      <h2>Kontakt</h2>
-      <ul>
-        <li>Das passende Rezept nicht gefunden?</li>
-        <li>Oder gibt es Fragen zu bestehenden Rezepten?</li>
-        <li>
-          Stelle deine Fragen gerne per Mail und wir bemühen uns um dein
-          Anliegen
-        </li>
-      </ul>
-
-      <form onsubmit="sendMail(event)" class="contact-form">
-        <label for="name">Dein Name:</label>
-        <input type="text" id="name" class="textbox" required />
-
-        <label for="email">Deine Email:</label>
-        <input type="email" id="email" name="email" class="textbox" required />
-
-        <label
-          >Deine Nachricht:
-          <textarea name="message" class="big-textbox"></textarea>
-        </label>
-
-        <input type="submit" id="submit" />
-      </form>
-    </section>
     <footer></footer>
   </body>
 </html>

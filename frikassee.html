@@ -13,132 +13,144 @@
     />
   </head>
   <body>
-    <div class="content">
-      <header>
-        <a href="./index.html"
-          ><img
-            class="logo"
-            src="./img/logo.png"
-            alt="Logo mit Schriftzug, Kochwelt"
-          />
-        </a>
+    <div class="all-but-footer">
+      <div class="content">
+        <header>
+          <a href="./index.html"
+            ><img
+              class="logo"
+              src="./img/logo.png"
+              alt="Logo mit Schriftzug, Kochwelt"
+            />
+          </a>
 
-        <img
-          onclick="togglerespmenu()"
-          class="menuimg"
-          src="./img/icons/menu-circle-3-64.png"
-          alt="Menu icon"
-        />
-      </header>
-      <nav id="respmenu" class="resp_menu_box resp_menu_closed">
-        <a class="navlinks" href="./index.html"> Start </a>
-        <a class="navlinks" href="./pesto.html"> Rezept des Tages </a>
-        <a class="navlinks" href="./contact.html"> Kontakt </a>
-        <a class="navlinks" href="./impressum.html"> Impressum </a>
-      </nav>
-    </div>
-    <main>
-      <h1>Hühnerfrikassee</h1>
-
-      <img src="frikassee5.webp" alt="Hühnerfrikassee" class="dish" />
-      <div class="info">
-        <div class="info-lines lightgray">
-          <img src="/img/icons/clock-regular.svg" alt="clock" class="icons" />
-          <p>20 Min</p>
-        </div>
-        <div class="info-lines lightgray">
-          <img src="/img/icons/brain-solid.svg" alt="brain" class="icons" />
-          <p>simpel</p>
-        </div>
-        <div class="info-lines lightgray">
           <img
-            src="/img/icons/calendar-alt-regular.svg"
-            alt="calender"
-            class="icons"
+            onclick="togglerespmenu()"
+            class="menuimg"
+            src="./img/icons/menu-circle-3-64.png"
+            alt="Menu icon"
           />
-          <p>17.06.2025</p>
-        </div>
+        </header>
+        <nav id="respmenu" class="resp_menu_box resp_menu_closed">
+          <a class="navlinks" href="./index.html"> Start </a>
+          <a class="navlinks" href="./pesto.html"> Rezept des Tages </a>
+          <a class="navlinks" href="./contact.html"> Kontakt </a>
+          <a class="navlinks" href="./impressum.html"> Impressum </a>
+        </nav>
       </div>
+      <main>
+        <h1>Hühnerfrikassee</h1>
 
-      <hr />
-
-      <section class="recipe">
-        <div class="portions">
-          <p>Zutaten für:</p>
-          <input min="1" max="10" type="number" name="portions" id="input" />
-          <button id="button">Portionen</button>
-        </div>
-
-        <table>
-          <tr class="lightgray">
-            <td class="left-table-column">0.25</td>
-            <td class="right-table-column">Stück Brathähnchen</td>
-          </tr>
-          <tr>
-            <td class="left-table-column">0.5</td>
-            <td class="right-table-column">TL Salz</td>
-          </tr>
-          <tr class="lightgray">
-            <td class="left-table-column">Spritzer</td>
-            <td class="right-table-column">Zitronensaft</td>
-          </tr>
-          <tr>
-            <td class="left-table-column">0.25</td>
-            <td class="right-table-column">Stück Zwiebel(n)</td>
-          </tr>
-          <tr class="lightgray">
-            <td class="left-table-column">0.5</td>
-            <td class="right-table-column">Stück Tomate(n)</td>
-          </tr>
-          <tr>
-            <td class="left-table-column">0.5</td>
-            <td class="right-table-column">Eigelb</td>
-          </tr>
-          <tr class="lightgray">
-            <td class="left-table-column">0.125</td>
-            <td class="right-table-column">Stück Sahne</td>
-          </tr>
-          <tr>
-            <td class="left-table-column">0.25</td>
-            <td class="right-table-column">Dose(n) Erbsen und Möhren</td>
-          </tr>
-          <tr class="lightgray">
-            <td class="left-table-column">etwas</td>
-            <td class="right-table-column">Mehl</td>
-          </tr>
-        </table>
-      </section>
-
-      <section class="cooking-instructions">
-        <h2 class="bold">Zubereitung</h2>
-
+        <img src="frikassee5.webp" alt="Hühnerfrikassee" class="dish" />
         <div class="info">
           <div class="info-lines lightgray">
             <img src="/img/icons/clock-regular.svg" alt="clock" class="icons" />
-            <p>Zeit 30 min</p>
+            <p>20 Min</p>
           </div>
           <div class="info-lines lightgray">
-            <img src="/img/icons/clock-regular.svg" alt="clock" class="icons" />
-            <p>Gesamtzeit 50 min</p>
+            <img src="/img/icons/brain-solid.svg" alt="brain" class="icons" />
+            <p>simpel</p>
+          </div>
+          <div class="info-lines lightgray">
+            <img
+              src="/img/icons/calendar-alt-regular.svg"
+              alt="calender"
+              class="icons"
+            />
+            <p>17.06.2025</p>
           </div>
         </div>
 
-        <ol>
-          <li>Das Brathähnchen in Stücke teilen und in einem Topf anbraten.</li>
-          <br />
-          <li>Zwiebel und Tomate würfeln und hinzufügen.</li>
-          <br />
-          <li>Mit Salz und Zitronensaft würzen.</li>
-          <br />
-          <li>Sahne und Erbsen-Möhren-Mischung unterrühren.</li>
-          <br />
-          <li>Mit Mehl binden und servieren.</li>
-          <br />
-        </ol>
-      </section>
+        <hr />
 
-      <h3 class="bold">Rezept erstellt von Kajanan</h3>
-    </main>
+        <section class="recipe">
+          <div class="portions">
+            <p>Zutaten für:</p>
+            <input min="1" max="10" type="number" name="portions" id="input" />
+            <button id="button">Portionen</button>
+          </div>
+
+          <table>
+            <tr class="lightgray">
+              <td class="left-table-column">0.25</td>
+              <td class="right-table-column">Stück Brathähnchen</td>
+            </tr>
+            <tr>
+              <td class="left-table-column">0.5</td>
+              <td class="right-table-column">TL Salz</td>
+            </tr>
+            <tr class="lightgray">
+              <td class="left-table-column">Spritzer</td>
+              <td class="right-table-column">Zitronensaft</td>
+            </tr>
+            <tr>
+              <td class="left-table-column">0.25</td>
+              <td class="right-table-column">Stück Zwiebel(n)</td>
+            </tr>
+            <tr class="lightgray">
+              <td class="left-table-column">0.5</td>
+              <td class="right-table-column">Stück Tomate(n)</td>
+            </tr>
+            <tr>
+              <td class="left-table-column">0.5</td>
+              <td class="right-table-column">Eigelb</td>
+            </tr>
+            <tr class="lightgray">
+              <td class="left-table-column">0.125</td>
+              <td class="right-table-column">Stück Sahne</td>
+            </tr>
+            <tr>
+              <td class="left-table-column">0.25</td>
+              <td class="right-table-column">Dose(n) Erbsen und Möhren</td>
+            </tr>
+            <tr class="lightgray">
+              <td class="left-table-column">etwas</td>
+              <td class="right-table-column">Mehl</td>
+            </tr>
+          </table>
+        </section>
+
+        <section class="cooking-instructions">
+          <h2 class="bold">Zubereitung</h2>
+
+          <div class="info">
+            <div class="info-lines lightgray">
+              <img
+                src="/img/icons/clock-regular.svg"
+                alt="clock"
+                class="icons"
+              />
+              <p>Zeit 30 min</p>
+            </div>
+            <div class="info-lines lightgray">
+              <img
+                src="/img/icons/clock-regular.svg"
+                alt="clock"
+                class="icons"
+              />
+              <p>Gesamtzeit 50 min</p>
+            </div>
+          </div>
+
+          <ol>
+            <li>
+              Das Brathähnchen in Stücke teilen und in einem Topf anbraten.
+            </li>
+            <br />
+            <li>Zwiebel und Tomate würfeln und hinzufügen.</li>
+            <br />
+            <li>Mit Salz und Zitronensaft würzen.</li>
+            <br />
+            <li>Sahne und Erbsen-Möhren-Mischung unterrühren.</li>
+            <br />
+            <li>Mit Mehl binden und servieren.</li>
+            <br />
+          </ol>
+        </section>
+
+        <h3 class="bold">Rezept erstellt von Kajanan</h3>
+      </main>
+    </div>
     <footer></footer>
   </body>
 </html>
