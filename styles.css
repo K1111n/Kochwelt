@@ -132,6 +132,17 @@ td {
   display: flex;
 }
 
+.author{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.no-profile-pic{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
 @media (max-width: 1000px) {
   .info {
     width: 100%;
@@ -173,6 +184,9 @@ td {
 
   .info-lines {
     width: 100%;
+  }
+  .author{
+    justify-content: center;
   }
 }
 
@@ -306,6 +320,9 @@ button {
   border: none;
   width: fit-content;
 }
+.rezeptdestages a{
+  text-decoration: none;
+}
 
 button:hover {
   cursor: pointer;
@@ -384,8 +401,8 @@ h3 {
 }
 
 .pvwmain {
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .resp_menu_box {
