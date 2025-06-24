@@ -254,7 +254,6 @@ header {
 }
 
 .rezeptdestagesimg {
-  width: 350px;
   height: 200px;
   object-fit: cover;
   object-position: center;
@@ -264,8 +263,8 @@ header {
 .rdt {
   display: flex;
   flex-direction: row;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   padding-top: 50px;
   padding-bottom: 50px;
 }
